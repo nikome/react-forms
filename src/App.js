@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import SurveyComponent from './SurveyComponent';
+import { InlineWidget } from "react-calendly";
 import './App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <div>
         <p>Code here</p>
         <SurveyComponent />
+        <InlineWidget url="https://calendly.com/nikome" />
       </div>
     </div>
   );
